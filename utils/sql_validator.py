@@ -2,7 +2,7 @@ def validate_sql(sql):
 
     sql_upper = sql.upper()
 
-    if ";" in sql:
+    if sql.count(";") > 1 or (sql.count(";") == 1 and not sql.strip().endswith(";")):
         raise ValueError("Multiple SQL statements are not allowed.")
 
     forbidden = [
