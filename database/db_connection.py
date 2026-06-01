@@ -7,15 +7,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 env_path = BASE_DIR / ".env"
 
-print("Looking for .env at:")
-print(env_path)
 
 load_dotenv(env_path)
-
-print("HOST =", os.getenv("DB_HOST"))
-print("DB =", os.getenv("DB_NAME"))
-print("USER =", os.getenv("DB_USER"))
-print("PASSWORD LENGTH =", len(os.getenv("DB_PASSWORD")))
 
 def get_connection():
 

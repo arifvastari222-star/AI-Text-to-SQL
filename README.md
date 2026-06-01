@@ -37,6 +37,7 @@ LIMIT 5;
 | PR             | 5045           |
 
 ---
+![alt text](<WhatsApp Image 2026-05-31 at 12.10.10 AM.jpeg>)
 
 # Features
 
@@ -123,8 +124,6 @@ AI-Text-to-SQL/
 │   ├── olist_order_items_dataset.csv
 │   ├── olist_order_payments_dataset.csv
 │   └── olist_products_dataset.csv
-│
-├── .env
 ├── requirements.txt
 └── README.md
 ```
