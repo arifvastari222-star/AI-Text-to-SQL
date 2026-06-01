@@ -245,17 +245,6 @@ pip install -r requirements.txt
 
 ---
 
-# Configure Environment Variables
-
-Create a `.env` file:
-
-```env
-DB_HOST=localhost
-DB_NAME=text_to_sql
-DB_USER=postgres
-DB_PASSWORD=your_password
-
-GOOGLE_API_KEY=your_gemini_api_key
 ```
 
 ---
