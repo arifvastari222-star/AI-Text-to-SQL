@@ -35,6 +35,7 @@ if question:
 
         st.dataframe(df.head(100))
 
-    except Exception as e:
-
-        st.error(str(e))
+    except ValueError as e:
+            st.error(str(e))
+    except Exception:
+            st.error("Something went wrong. Please try again.")

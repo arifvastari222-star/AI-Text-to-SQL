@@ -2,6 +2,9 @@ def validate_sql(sql):
 
     sql_upper = sql.upper()
 
+    if ";" in sql:
+        raise ValueError("Multiple SQL statements are not allowed.")
+
     forbidden = [
         "DROP",
         "DELETE",
