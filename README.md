@@ -125,6 +125,8 @@ AI-Text-to-SQL/
 │   ├── olist_order_payments_dataset.csv
 │   └── olist_products_dataset.csv
 ├── requirements.txt
+├── LICENSE
+├── .env.example
 └── README.md
 ```
 
