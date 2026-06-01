@@ -37,7 +37,7 @@ LIMIT 5;
 | PR             | 5045           |
 
 ---
-![alt text](<WhatsApp Image 2026-05-31 at 12.10.10 AM.jpeg>)
+![alt text](<text-sql agent UI.jpeg>)
 
 # Features
 
